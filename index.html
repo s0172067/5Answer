@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+   <script src="Script1.js"></script>
+    <h3>Калькулятор</h3>
+
+    <form action="/"
+          method="POST"
+          id="mainForm">
+
+        <label>
+            Стоимость:<br />
+            <input id="field1"
+                   placeholder="Ведите стоимость товара" />
+        </label><br />
+        <br />
+        <label>
+            Количество:<br />
+            <input id="field2"
+                   placeholder="Ведите количество товара" />
+        </label><br />
+        <br />
+        <button id="button1" type="button" onclick="click1();">Отправить</button>
+
+
+        <br />
+        <dif style="background-color:white">
+
+            <label>
+                Ответ:<br />
+
+                <textarea id="result"
+                          placeholder=" " style="height :16px ; width : 143px"></textarea>
+            </label><br />
+        </dif>
+        <!--<script>
+    function click1() {
+        let f1 = document.getElementById("field1");
+        let f2 = document.getElementById("field2");
+        let r = document.getElementById("result");
+        let q = Number(f1.value) + Number(f2.value);
+        r.textContent = q;
+       // return true;</script>
+    }-->
+
+    </form>
+</body>
+</html>
