@@ -6,12 +6,12 @@ function click1() {
     let F1 = Number(f1.value);
     let F2 = Number(f2.value);
     let q;
-    if (F1 >= 0 && F2 >= 0) {
+   // if (F1 % 10 >= "0" && F1 % 10 <= "9" && F2 % 10 <= "9" && F2%10 >= "0") {
         if (f1.value >= 0 && f2.value >= 0) {
             r.textContent = Number(f1.value) * Number(f2.value);
         }
-        else r.textContent = "Отрицательное значение";
-    } else r.textContent ="Введено неверное значение";
+        else r.textContent = " Not right !!! ";
+  //  } else r.textContent ="Not right !!! ";
     
     
     //r.textContent = q;
