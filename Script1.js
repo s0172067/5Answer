@@ -10,8 +10,8 @@ function click1() {
     if (f1.value >= 0 && f2.value >= 0) {
         r.textContent = Number(f1.value) * Number(f2.value);
     }
-    else r.textContent = " Not right ( < 0 ) !!! ";
-      } else r.textContent ="Not right (  need numbers !) !!!!!! ";
+    else r.textContent = " Not right(< 0 )!!! ";
+      } else r.textContent ="Not numbers !!! ";
 
 
     //r.textContent = q;
