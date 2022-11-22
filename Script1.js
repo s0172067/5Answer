@@ -19,8 +19,5 @@ function click1() {
 let buttom = document.getElementById("button1");
 
 buttom.addEventListener("click", click1);
-//var l = document.createElement("lable");
-//l.textContent = "Русский";
-//var f_ = document.getElementById("mainForm");
-//f_.appendChild(l);
+
 
